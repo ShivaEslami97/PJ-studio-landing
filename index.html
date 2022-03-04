@@ -21,6 +21,9 @@
 </head>
 
 <body>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
     <!-- Header part start -->
     <header id="header">
         <div class="container">
@@ -40,7 +43,6 @@
         </div>
 
     </header>
-
     <!-- Header part end -->
 
     <!-- Main part start -->
@@ -266,13 +268,12 @@
     <!-- Footer part end -->
 
     <script>
+        ///// scroll menu
         window.onscroll = function () {
             myFunction()
         };
-
-        var header = document.getElementById("header");
-        var sticky = header.offsetTop;
-
+        let header = document.getElementById("header");
+        let sticky = header.offsetTop;
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 header.classList.add("sticky");
@@ -280,6 +281,14 @@
                 header.classList.remove("sticky");
             }
         }
+        ///// preloader
+        let overlay = document.getElementById("preloader");
+        window.addEventListener('load', function () {
+            overlay.style.display = 'none';
+        })
+    </script>
+    <script>
+
     </script>
 </body>
 
