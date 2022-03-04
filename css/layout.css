@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* ================= Layout ================= */
+
+:root {
+  --primary-color: #7854f7;
+  --dark-color: #181131;
+  --accent-color: #ffbb41;
+  --light-color: #f7f7f7;
+  --secondary-color: #515151;
+  --green-color: #13b237;
+  --light-blue-color: #44d4d7;
+  --dark-blue-color: #4756df;
+  --red-color: #fa6444;
+  --light-gray-color: #f4f4ff;
+  --dark-gray-color: #7c7878;
+  --orange-color: #fea573;
+  --dark-orange-color: #ff7235;
+  --border-raduis-sm: 0.5rem;
+  --border-raduis-md: 1rem;
+  --border-raduis-lg: 1.5rem;
+  --border-raduis-xlg: 2.5rem;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f2f2 75%);
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+section {
+  padding: 5.7em 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+}
+.row {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+.col {
+  width: 100%;
+}
+.col + .col {
+  margin-left: 30px;
+}
+.d-flex {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.btn {
+  font-family: inherit;
+  padding: 1rem 1.5rem;
+  border-radius: var(--border-raduis-sm);
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  box-shadow: 0px 10px 30px 0px rgb(120 84 247 / 36%);
+  -webkit-box-shadow: 0px 10px 30px 0px rgb(120 84 247 / 36%);
+}
+.btn:hover {
+  background-color: #5930e7;
+}
+.btn__primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+main {
+  margin-top: 5em;
+}

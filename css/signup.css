@@ -1,0 +1,36 @@
+/* ================= signup ================= */
+
+.signup {
+  padding-bottom: 0;
+  margin-bottom: -11rem;
+  position: relative;
+}
+.signup__text {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.signup__img {
+  width: 30%;
+}
+.signup__wrapper {
+  background-color: #f2f2f2;
+  -webkit-box-shadow: -8px 30px 42px 0px rgba(0, 0, 0, 0.01),
+    8px 17px 40px 0px rgba(0, 0, 0, 0.01);
+  box-shadow: -8px 60px 42px 0px rgb(0 0 0 / 5%),
+    8px 47px 40px 0px rgb(0 0 0 / 5%);
+  padding: 2em 2em;
+  border-radius: var(--border-raduis-md);
+  -webkit-border-radius: var(--border-raduis-md);
+  -moz-border-radius: var(--border-raduis-md);
+}
+.signup__text h3 {
+  font-size: 3.25rem;
+  margin-bottom: 0.3em;
+}
+.signup__text p {
+  color: var(--secondary-color);
+  margin-bottom: 0.73em;
+}

@@ -1,0 +1,32 @@
+/* ================= features-web ================= */
+
+.features-web {
+  background-color: #fff4ef;
+  padding: 0;
+}
+.features-web__img {
+  width: 42%;
+  padding-top: 3em;
+}
+.features-web__text {
+  width: 50%;
+  background-color: #f2f2f2;
+  padding: 1em 3em;
+  margin-right: 2em;
+}
+.features-web__text h3 {
+  font-size: 3.7rem;
+  margin: 0.2em 0;
+}
+.features-web__text span {
+  color: var(--secondary-color);
+}
+.features-web__text p {
+  color: var(--secondary-color);
+}
+.features-web__text .icon--blue {
+  background-color: var(--dark-blue-color);
+}
+.features-web__text .icon--orange {
+  background-color: var(--dark-orange-color);
+}

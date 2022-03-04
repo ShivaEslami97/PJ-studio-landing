@@ -1,0 +1,87 @@
+/* ================= process ================= */
+
+.process {
+  padding-bottom: 11em;
+}
+.process__item--text {
+  padding: 1.7em 3.5em;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.process__item--text h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+.process__item--text p {
+  font-size: 1.8rem;
+  opacity: 0.9;
+  color: var(--secondary-color);
+}
+.process__item--box {
+  text-align: center;
+  border-radius: var(--border-raduis-md);
+  padding: 2em 1.4em;
+  -webkit-box-shadow: 5px 6px 20px rgb(0 0 0 / 10%);
+  box-shadow: 5px 6px 20px rgb(0 0 0 / 10%);
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  background-color: var(--light-gray-color);
+}
+.process__item--box:hover {
+  box-shadow: 5px 6px 20px rgb(0 0 0 / 20%);
+  transform: translate(0, -13px);
+  -webkit-transform: translate(0, -13px);
+  -ms-transform: translate(0, -13px);
+  -o-transform: translate(0, -13px);
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+}
+.process__item--box h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 1.5rem;
+}
+.process__item--box p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+.process__item--box-icon {
+  width: 55px;
+  height: 55px;
+  font-size: 2.4rem;
+  border-radius: var(--border-raduis-md);
+  color: var(--light-color);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.box--daily {
+  background-color: var(--accent-color);
+}
+.box--shield {
+  background-color: var(--dark-blue-color);
+}
+.box--testing {
+  background-color: var(--red-color);
+}
