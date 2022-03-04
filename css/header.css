@@ -9,23 +9,10 @@ header {
   top: 0;
   width: 100%;
 }
-.mobile-menu {
-  display: none;
-}
-header input {
-  display: none;
-}
-header label {
-  font-size: 1rem;
-  color: var(--primary-color);
-  cursor: pointer;
-  visibility: hidden;
-  opacity: 0;
-}
 .nav {
   display: flex;
   display: -webkit-box;
-  display: -ms-flexbox;  
+  display: -ms-flexbox;
   display: -webkit-flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +29,7 @@ header label {
   list-style: none;
   display: flex;
   display: -webkit-box;
-  display: -ms-flexbox;  
+  display: -ms-flexbox;
   display: -webkit-flex;
   align-items: center;
 }
