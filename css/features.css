@@ -4,12 +4,15 @@
   background-color: var(--light-gray-color);
   padding: 0;
 }
+.features__wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
 .features__img {
-  width: 30%;
   margin-top: -3em;
+  justify-self: center;
 }
 .features__text {
-  width: 43%;
   background-color: #fff;
   padding: 0.8em 3em;
 }
@@ -25,6 +28,8 @@
 }
 .features__items {
   margin-top: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
 }
 .feature__item {
 }

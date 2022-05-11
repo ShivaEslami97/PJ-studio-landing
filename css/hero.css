@@ -1,10 +1,9 @@
 /* ================= hero ================= */
 
-.hero {
-  /* padding: 5.7em 0; */
-}
-.hero__text {
-  width: 52%;
+.hero__wrapper {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 .hero__text h1 {
   font-size: 7.5rem;
@@ -27,13 +26,8 @@
   color: var(--secondary-color);
   font-size: 1.8rem;
 }
-.hero__img {
-  width: 42%;
-}
 .hero__img img {
-  width: 100%;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
+  height: 40rem;
+  -o-object-fit: cover;
+  object-fit: cover;
 }

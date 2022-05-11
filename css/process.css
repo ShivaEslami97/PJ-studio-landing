@@ -3,6 +3,11 @@
 .process {
   padding-bottom: 11em;
 }
+.process__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+}
 .process__item--text {
   padding: 1.7em 3.5em;
   display: flex;

@@ -58,9 +58,10 @@ section {
   padding: 5.7em 0;
 }
 .container {
+  padding-inline: 2em;
   margin: 0 auto;
-  max-width: 1100px;
-  width: 100%;
+  max-width: 1300px;
+  width: 90%;
 }
 .row {
   display: flex;
@@ -80,6 +81,10 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+}
+.d-grid {
+  display: -ms-grid;
+  display: grid;
 }
 .justify-content-center {
   justify-content: center;
