@@ -17,10 +17,15 @@
   font-size: 2rem;
   margin-bottom: 2.5rem;
 }
+.hero_btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 .hero__btn {
   padding: 1.5rem 2.5rem;
   font-size: 1.8rem;
-  margin-right: 0.5em;
 }
 .hero__text span {
   color: var(--secondary-color);

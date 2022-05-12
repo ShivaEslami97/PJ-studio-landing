@@ -30,19 +30,22 @@
         <div class="container">
             <nav class="nav">
                 <a href="#" class="nav__logo"><img src="images/pj logo.png" alt="Logo"></a>
-
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
-                    <li class="nav__item"><a href="#aboutus" class="nav__link">About us</a></li>
-                    <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
-                    <li class="nav__item"><a href="#feedback" class="nav__link">Feedback</a></li>
-                </ul>
-                <div class="nav__demo">
-                    <button type="button" class="btn btn__primary">Request a demo</button>
+                <div class="header__mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="responsive-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="#aboutus" class="nav__link">About us</a></li>
+                        <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
+                        <li class="nav__item"><a href="#feedback" class="nav__link">Feedback</a></li>
+                    </ul>
+                    <div class="nav__demo">
+                        <button type="button" class="btn btn__primary">Request a demo</button>
+                    </div>
                 </div>
             </nav>
         </div>
-
     </header>
     <!-- Header part end -->
 
@@ -54,10 +57,12 @@
                 <div class="hero__text">
                     <h1>Web & Mobile <br> design <br> development</h1>
                     <p class="text-muted">help to organize your income and expenses</p>
-                    <button type="button" class="btn btn__primary hero__btn">Try free demo
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <span class="link-btn text-muted"> - Web,iOs and Andoid</span>
+                    <div class="hero_btns">
+                        <button type="button" class="btn btn__primary hero__btn">Try free demo
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <span class="link-btn text-muted"> - Web,iOs and Andoid</span>
+                    </div>
                 </div>
                 <div class="hero__img">
                     <img src="images/hero-vector.svg" alt="website hero section image">
@@ -212,8 +217,8 @@
 
     <!-- Footer part start -->
     <footer class="footer">
-        <div class="container row">
-            <div class="col">
+        <div class="container d-grid footer__wrapper">
+            <div class="footer__col">
                 <div class="footer__logo">
                     <a href="#"><img src="images/pj logo.png" alt="page logo in footer"></a>
                 </div>
@@ -233,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="footer__col">
                 <h4>Resources</h4>
                 <ul class="footer__navbar">
                     <li><a href="#">Home</a></li>
@@ -243,7 +248,7 @@
                     <li><a href="#">Our Products</a></li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="footer__col">
                 <h4>Usefull Links</h4>
                 <ul class="footer__navbar">
                     <li><a href="#">Team</a></li>
@@ -253,7 +258,7 @@
                     <li><a href="#">Locations</a></li>
                 </ul>
             </div>
-            <div class="col col__last">
+            <div class="footer__col">
                 <h4>NEWSLETTER</h4>
                 <p>Over 25000 people have subscribed</p>
                 <form action="" class="footer__newsletter-form">
@@ -268,29 +273,7 @@
     </footer>
     <!-- Footer part end -->
 
-    <script>
-        ///// scroll menu
-        window.onscroll = function () {
-            myFunction()
-        };
-        let header = document.getElementById("header");
-        let sticky = header.offsetTop;
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-        ///// preloader
-        let overlay = document.getElementById("preloader");
-        window.addEventListener('load', function () {
-            overlay.style.display = 'none';
-        })
-    </script>
-    <script>
-
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

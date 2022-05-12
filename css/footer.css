@@ -5,8 +5,9 @@
   border-radius: 50%/100px 77px 0 0;
   background-color: #fff4ef;
 }
-.footer .col {
-  margin-right: 3rem;
+.footer__wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1rem;
 }
 .footer h4 {
   margin-bottom: 0.8rem;
@@ -134,4 +135,5 @@
   -ms-flex-align: center;
   align-items: center;
   font-weight: 500;
+  margin-left: -4rem;
 }

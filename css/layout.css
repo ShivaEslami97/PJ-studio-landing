@@ -44,7 +44,8 @@ button {
   font-family: inherit;
 }
 
-ul {
+ul,
+li {
   list-style: none;
 }
 
