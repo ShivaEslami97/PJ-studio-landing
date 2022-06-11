@@ -27,7 +27,7 @@ You can see the demo [here](<https://shivaeslami-pjstudio-landing.netlify.app> "
 
 ## Screenshots
 
-![App Screenshot]()![35b77d1e0380fa46c9552aed67360574](https://user-images.githubusercontent.com/25490229/173184910-eef85cf2-6bc0-43ff-81d4-e3efca0b908a.jpg)
+![App Screenshot](https://user-images.githubusercontent.com/25490229/173184910-eef85cf2-6bc0-43ff-81d4-e3efca0b908a.jpg)
 
 
 
