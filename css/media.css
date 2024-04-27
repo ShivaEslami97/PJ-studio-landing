@@ -4,11 +4,9 @@
   .header {
     position: fixed;
   }
-
   .sticky {
     padding: 0.4em 0em;
   }
-
   .responsive-menu {
     flex-direction: column;
     background-color: #fff;
@@ -24,112 +22,91 @@
     visibility: hidden;
     display: none;
   }
-
   .header__mobile-btn {
     display: block;
   }
-
   .nav__list {
     flex-direction: column;
     gap: 1rem;
   }
-
   .responsive-menu.is-active {
     visibility: visible;
     opacity: 1;
     display: flex;
   }
-
   .row {
     justify-content: center;
     flex-direction: column;
   }
-
-  .col+.col {
+  .col + .col {
     margin-left: 0px;
   }
-
   .hero__text h1 {
     font-size: 4.5rem;
     line-height: 6rem;
   }
-
-  .hero__img {
-    display: none;
+  .hero__img img {
+    width: auto;
+    object-fit: contain;
   }
-
   .process__item--box {
     margin-bottom: 2em;
   }
-
   .offers__wrapper {
     gap: 2rem;
   }
-
   .offers__img {
     width: 90%;
     display: flex;
     align-self: center;
   }
-
   .offers__items {
     width: 95%;
     display: flex;
     flex-direction: column;
     align-self: center;
   }
-
   .features-web__text {
     width: 100%;
   }
-
   .features-web__img {
     width: 90%;
     display: flex;
     align-self: center;
   }
-
   .feature__item {
     margin-bottom: 1.1em;
   }
-
   .signup__wrapper {
     flex-wrap: wrap;
   }
-
   .signup__text {
     width: 100%;
     order: 2;
     align-items: center;
   }
-
   .signup__img {
     width: 100%;
     display: flex;
     justify-content: center;
   }
-
   .footer__col {
     text-align: center;
     margin-bottom: 0.2em;
   }
-
   .social-lists {
     justify-content: center;
     margin-bottom: 1.2em;
   }
-
   .footer__newsletter-form {
     margin: 0.4em auto;
   }
 }
-
 @media (max-width: 480px) {
   .container {
     padding-inline: 1em;
     width: 96%;
   }
-
   .offers__img {
     display: none;
   }
